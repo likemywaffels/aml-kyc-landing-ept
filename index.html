@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AML и KYC по-пацански</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Verdana', sans-serif;
+        }
+
+        body {
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+
+        header {
+            background: linear-gradient(90deg, #ff2e2e, #b31212);
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+            border-bottom: 5px solid #000;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+
+        .cta-button {
+            background-color: #ffd700;
+            color: #000;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            border: 2px solid #000;
+        }
+
+        .cta-button:hover {
+            background-color: #e6c200;
+        }
+
+        .section {
+            padding: 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .why-important {
+            background-color: #2e2e2e;
+            margin: 2rem auto;
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+        }
+
+        .why-important img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin: 1rem auto;
+            border: 3px solid #ffd700;
+            border-radius: 10px;
+        }
+
+        .course-info {
+            background-color: #3a3a3a;
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        .course-info ul {
+            list-style: none;
+            margin: 1rem 0;
+        }
+
+        .course-info li {
+            font-size: 1.1rem;
+            margin: 0.5rem 0;
+        }
+
+        .form-section {
+            background-color: #2e2e2e;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+            margin: 2rem auto;
+            max-width: 500px;
+        }
+
+        .form-section input {
+            width: 100%;
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+            border: 2px solid #ffd700;
+            border-radius: 5px;
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+
+        footer {
+            background-color: #000;
+            color: #ffd700;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            .section {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AML и KYC — по-пацански разжёвываем!</h1>
+        <p>Похер, шо за бабки, научись не попадать на штрафы за 5 движух!</p>
+        <a href="#form" class="cta-button">Вписаться в тусу</a>
+    </header>
+
+    <section class="why-important section">
+        <h2>Чё за AML и KYC, брат?</h2>
+        <p>Это типа фильтр, чтоб не вляпаться в мутные схемы с баблом и не словить пиздец от ментов.</p>
+        <img src="https://via.placeholder.com/600x300?text=Гопник+с+баблом" alt="Гопник с баблом">
+        <p>Без этого:</p>
+        <ul>
+            <li>Штрафы на лям баксов, как два пальца.</li>
+            <li>Клиенты мутные, шмотки в минус.</li>
+            <li>Мошенники на районе тебя поимеют.</li>
+        </ul>
+    </section>
+
+    <section class="course-info section">
+        <h2>Чё получишь, если впишешься?</h2>
+        <ul>
+            <li>Разжуём AML и KYC за 5 уроков, без воды.</li>
+            <li>Кейсы, как на районе бизнес держать чистым.</li>
+            <li>Сертификат, чтобы козырять перед своими.</li>
+            <li>Доступ к видосам и шпаргалкам 24/7.</li>
+        </ul>
+        <a href="#form" class="cta-button">Го на курс, пацан!</a>
+    </section>
+
+    <section id="form" class="form-section section">
+        <h2>Запишись на сходку</h2>
+        <form>
+            <input type="text" placeholder="Как звать, братан?" required>
+            <input type="email" placeholder="Твой имейл" required>
+            <input type="submit" value="Вписаться" class="cta-button">
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 AML/KYC по-пацански. Всё чётко, без кидалова.</p>
+        <p>Трынди с нами: info@amlgop.ru</p>
+    </footer>
+</body>
+</html>
